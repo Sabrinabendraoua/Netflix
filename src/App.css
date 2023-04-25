@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+main {
+  background-color: black;
+  margin: 0 auto;
+  padding: 50px;
+}
+h1 {
+  color: red;
+  font-size: 2rem;
+  height: 80px;
+}
+h2 {
+  color: white;
+  font-size: 1.5rem;
+  height: 80px;
+}
+.caroussel {
+  background-color: pink;
+  height: 150px;
+}
+img {
+  border: solid red 2px;
+  width: 220px;
+  height: 120px;
+}
