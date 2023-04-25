@@ -10,15 +10,12 @@ const movie = () => {
         return (
           <section>
             <h2>{movieSelection.category}</h2>
-
-            {movieUrls.map((url) => {
-              console.log(url);
-              return (
-                <div className="caroussel">
-                  <img src={url} alt="" />
-                </div>
-              );
-            })}
+            <div className="caroussel">
+              {movieUrls.map((url) => {
+                console.log(url);
+                return <img src={url} alt="" />;
+              })}
+            </div>
           </section>
         );
       })}
