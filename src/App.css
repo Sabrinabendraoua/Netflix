@@ -19,6 +19,8 @@ h2 {
 .caroussel {
   display: flex;
   margin-bottom: 60px;
+  overflow: scroll;
+  overflow-y: hidden;
 }
 img {
   width: 220px;
