@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
 .container {
   background-color: black;
   margin: 0 auto;
@@ -25,4 +29,5 @@ h2 {
 img {
   width: 220px;
   height: 120px;
+  object-fit: cover;
 }
