@@ -8,7 +8,7 @@ const movie = () => {
         console.log(movieSelection.images);
         const movieUrls = movieSelection.images;
         return (
-          <section>
+          <section key={movieSelection.category}>
             <h2>{movieSelection.category}</h2>
             <div className="caroussel">
               {movieUrls.map((url) => {
