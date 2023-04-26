@@ -27,4 +27,5 @@ img {
   width: 220px;
   height: 120px;
   object-fit: cover;
+  flex-shrink: 0;
 }
