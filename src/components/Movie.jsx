@@ -13,7 +13,7 @@ const movie = () => {
             <div className="caroussel">
               {movieUrls.map((url) => {
                 console.log(url);
-                return <img src={url} alt="" />;
+                return <img src={url} alt="photo de film" />;
               })}
             </div>
           </section>
